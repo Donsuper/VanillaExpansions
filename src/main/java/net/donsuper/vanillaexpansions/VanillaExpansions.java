@@ -11,6 +11,6 @@ public class VanillaExpansions implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
-	}
+		VanillaExpansionItems.initialize();
+    }
 }
